@@ -39,6 +39,7 @@ section {
 	color: black;
 	position: relative;
 	overflow: auto;
+  text-align: justify;
 }
 
 #NickWilde {
