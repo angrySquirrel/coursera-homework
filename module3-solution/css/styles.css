@@ -39,6 +39,7 @@ p {
   border: 0;
   background-color: #FF5100;
   color: #FFFFFF;
+  border-radius: 0;
 }
 
 
@@ -46,11 +47,16 @@ p {
   background: url('../images/logo2.png') no-repeat;
   width: 180px;
   height: 180px;
-  margin: 5px 0px 0px 0;
+  float : left;
+  padding: 2px;
+  margin-left: 2%; 
+
+  /*margin: 5px 0px 0px 0;*/
 }
 
 .navbar-brand {
-	padding-top: 10px;
+	float : left;
+	padding-top: 10px;	
 }
 
 .navbar-brand p { 
@@ -64,9 +70,10 @@ p {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0px;
   padding-top: 35px;
+  padding-left: 5px;
   margin-bottom: 0;
   line-height: .75;
-  vertical-align: middle;  
+  /*vertical-align: middle;  */
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -306,7 +313,7 @@ hr {
 	  font-family: Brushstroke, fantasy; 
 
 	  color: #FFFFFF;
-	  font-size: 2em;
+	  font-size: 2em;	
 	  border: 0 0 5px 2px;
 	  text-transform: uppercase;
 	  font-weight: bold;
